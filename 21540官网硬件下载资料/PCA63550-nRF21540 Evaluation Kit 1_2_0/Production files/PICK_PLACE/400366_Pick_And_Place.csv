@@ -1,0 +1,43 @@
+Altium Designer Pick and Place Locations
+D:\svn\applications\hardware\pca63550\trunk\production_files\400366_pick_and_place.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       31.10.22
+Time:       10:52
+Revision:   26262
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R1","33k","TopLayer","RESC0603X03L_C","33.7150","25.0320","0","Resistor, ±1%, 0.05W"
+"L4","3.0nH","TopLayer","INDC0603X03L_C","31.6941","22.6150","270","Inductor, 600mA, ±0.1nH, 120mOhm"
+"L3","3.0nH","TopLayer","INDC0603X03L_C","29.2661","22.6150","270","Inductor, 600mA, ±0.1nH, 120mOhm"
+"C5","1.0pF","TopLayer","CAPC0603X03L_C","32.5085","22.1814","180","RF Chip Cap 0201"
+"C4","2.0pF","TopLayer","CAPC0603X03L_C","32.5085","23.5568","180","Capacitor, NP0, ±0.05pF, 25V"
+"C2","2.0pF","TopLayer","CAPC0603X03L_C","28.4450","23.5568","0","Capacitor, NP0, ±0.05pF, 25V"
+"C3","1.0pF","TopLayer","CAPC0603X03L_C","28.4450","22.1814","0","RF Chip Cap 0201"
+"Fid3","Fiducial mark","TopLayer","Fiducial","3.0800","29.7330","270","Fiducial Mark"
+"J1","SMA_2081005-1","TopLayer","SMA_2081005-1","3.9500","17.2720","0","SMA, Female, Right Angle, TH/SMT, 50Ohm, Board Edge"
+"C1","1.0pF","TopLayer","CAPC0603X03L_C","30.8050","31.2420","270","Capacitor, C0G, ±0.1pF, 25V"
+"Fid1","Fiducial mark","TopLayer","Fiducial","58.4200","51.5620","0","Fiducial Mark"
+"Fid2","Fiducial mark","TopLayer","Fiducial","58.3850","2.5400","0","Fiducial Mark"
+"P11","Socket 2x3","TopLayer","SOCKET_2x3_SMD-2.54mm-bottom","54.7370","28.7020","270","Socket 2x3, 2.54mm (100mil), SMD"
+"P8","Pin List 1x6","BottomLayer","LIST_1x6_SMD","46.9900","3.3020","0","Pin List 1x6, 2.54mm (100mil), SMD"
+"P10","Pin List 1x10","BottomLayer","LIST_1x10_SMD","20.0660","51.5620","180","Pin List 1x10, 2.54mm (100mil), SMD"
+"P9","Pin List 1x8","BottomLayer","LIST_1x8_SMD","44.4500","51.5620","180","Pin List 1x8, 2.54mm (100mil), SMD"
+"P7","Pin List 1x8","BottomLayer","LIST_1x8_SMD","26.6700","3.3020","0","Pin List 1x8, 2.54mm (100mil), SMD"
+"P3","Socket 1x8","TopLayer","SOCKET_1x8_SMD","44.4500","51.5620","180","Socket 1x8, 2.54mm (100mil), SMD"
+"P4","Socket 1x10","TopLayer","SOCKET_1x10_SMD","20.0660","51.5620","180","Socket 1x10, 2.54mm (100mil), SMD"
+"P1","Socket 1x8","TopLayer","SOCKET_1x8_SMD","26.6700","3.3020","0","Socket 1x8, 2.54mm (100mil), SMD"
+"P2","Socket 1x6","TopLayer","SOCKET_1x6_SMD","46.9900","3.3020","0","Socket 1x6, 2.54mm (100mil), SMD"
+"C8","10µF","TopLayer","CAPC1608X06L","34.8572","26.9888","270","Capacitor, X5R, ±20%"
+"C7","100nF","TopLayer","CAPC0603X03L_C","33.9090","26.7470","270","Capacitor, X5R, ±10%"
+"L2","1.9nH","TopLayer","INDC0603X03L_C","31.6941","23.8309","270","Inductor, 600mA, ±0.1nH, 120mOhm"
+"L1","1.9nH","TopLayer","INDC0603X03L_C","29.2661","23.8309","270","Inductor, 600mA, ±0.1nH, 120mOhm"
+"U1","nRF21540-QDAAG00","TopLayer","QFN65P400X400X65_HS-17N","30.4800","27.4320","90","Radio front-end / range extender for 2.4GHz"
+"J2","SMA_2081005-1","TopLayer","SMA_2081005-1","57.0070","17.2720","180","SMA, Female, Right Angle, TH/SMT, 50Ohm, Board Edge"
+"J3","SMA_2081005-1","TopLayer","SMA_2081005-1","57.0249","40.1320","180","SMA, Female, Right Angle, TH/SMT, 50Ohm, Board Edge"
+"P5","Pin List 1x3, Angled","TopLayer","LIST_ANG_1x3-SMD-2.54MM","9.4520","5.6070","270","Pin List 1x3, 2.54mm (100mil), Right Angled, SMD"
+"R3","0R","TopLayer","RESC1005X04L","15.6350","7.6320","90","Resistor, ±5%, 0.063W"
