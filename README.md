@@ -1,9 +1,23 @@
 # FEM-
 测试nRF21540的性能实验
 ***
+>* 更新2023-08-10
+
+1.补充文件夹说明
+|文件夹名称| 内容   |
+|  :---:   | :-----:  | 
+| 21540官网硬件下载资料     | 官网下载的资料，21540-DK开发板AD图 |
+| MATLAB代码                | 心电从机的测试代码 |
+| picture                   | 主从机2D图 |
+| PPT与手册                 | 视频PPT与21540手册 |
+| 测试视频                   | 视频中测试视频，附带青风开发板测试 |
+
+***
+>* 更新2023-08-06
+
 - ppi关联LNA/PA调试代码<br>
 
-
+```c
 static void pa_lna_assist(uint32_t gpio_pa_pin, uint32_t gpio_lna_pin)<br>
 {<br>
 
@@ -39,10 +53,11 @@ static void pa_lna_assist(uint32_t gpio_pa_pin, uint32_t gpio_lna_pin)<br>
     err_code = sd_ble_opt_set(BLE_COMMON_OPT_PA_LNA, &opt);
     APP_ERROR_CHECK(err_code);
 }
+```
 
 1. ppi的关联可以自己选择<br>
 2. 注意在协议栈初始化之后调用
-3. 另外失能后会占用GPIOTE0的回调事件
+3. 另外使能后会占用GPIOTE0的回调事件，请空出第一个GPIOTE的回调事件即可。
 
 
 
