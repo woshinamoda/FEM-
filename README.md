@@ -59,5 +59,5 @@ static void pa_lna_assist(uint32_t gpio_pa_pin, uint32_t gpio_lna_pin)<br>
 2. 注意在协议栈初始化之后调用
 3. 另外使能后会占用GPIOTE0的回调事件，请空出第一个GPIOTE的回调事件即可。
 
-
+[![c主机测试图](picture/接收器主机.png)]
 
